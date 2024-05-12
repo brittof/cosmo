@@ -1,12 +1,6 @@
 import type { FC } from "hono/jsx";
 
 export const Menu: FC = async () => {
-	async function handleClick(event: MouseEvent) {
-		event.preventDefault();
-
-		window.location.href = "/coco";
-	}
-
 	return (
 		<nav>
 			<a href="/">Codikin</a>
